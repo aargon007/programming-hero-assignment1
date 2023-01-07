@@ -1,0 +1,179 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* header styles  */
+.header{
+    text-align: right;
+    padding: 210px 200px 160px 840px;
+    background-image: url('./images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+/* first section styles about failures and success */
+section{
+    margin-bottom: 130px;
+}
+.failures-container, .success-container{
+    margin: 130px 225px 130px 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+}
+.image-area img{
+    max-width: 570px;
+    max-height: 720px;
+    background-image: url('./images/light-gray.jpg');
+    background-size: 70%;
+    background-position: 42% 100%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 50% 50%;
+}
+.text-area{
+    text-align: left;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.section-description img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+/* future plan styles  */
+.future-plan {
+    text-align: center;
+}
+.plans-item-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    margin: 50px 225px auto 225px;
+}
+.plans-item-container .item img{
+    width: 90px;
+    height:90px;
+    margin-bottom: 20px;
+}
+.plans-item-container .item h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plans-item-container .item p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* fourth section - positive mindset styles  */
+.positive-mindset{
+    margin: 130px 225px;
+    background-image: url('./images/watch.png'), url('./images/gradient1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    background-blend-mode:overlay;
+}
+.backgroun-inner-text{
+    padding: 60px 600px 60px 60px;
+    text-align: left;
+}
+.backgroun-inner-text h2{
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* footer styles  */
+.footer{
+    background: #151414;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+    padding: 130px 230px 50px ;
+}
+.footer-future h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.footer-future p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.subscription h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+input{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+input[type="email"]{
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 30px;
+    color: #F3F3F3;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+}
+input[type="submit"]{
+    background: #005FAC;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.copyright{
+    color: red;
+    text-align: center;
+    padding: 50px;
+}
