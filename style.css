@@ -6,7 +6,7 @@
 /* header styles  */
 .header{
     text-align: right;
-    padding: 210px 200px 160px 840px;
+    padding: 210px 200px 160px 850px;
     background-image: url('./images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -38,7 +38,7 @@ section{
     margin-bottom: 130px;
 }
 .failures-container, .success-container{
-    margin: 130px 225px 130px 225px;
+    margin: 130px 230px 130px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,14 +112,14 @@ section{
     background-blend-mode:overlay;
 }
 .backgroun-inner-text{
-    padding: 60px 600px 60px 60px;
+    padding: 60px 620px 60px 60px;
     text-align: left;
 }
 .backgroun-inner-text h2{
     font-size: 35px;
     color: #FFFFFF;
     margin-bottom: 20px;
-}
+} 
 
 /* footer styles  */
 .footer{
@@ -139,7 +139,7 @@ section{
 }
 .footer-future p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     color: #FFFFFF;
     margin-bottom: 15px;
@@ -148,7 +148,6 @@ section{
 .subscription h2{
     font-weight: 600;
     font-size: 25px;
-    line-height: 29px;
     margin-bottom: 30px;
     color: #FFFFFF;
 }
@@ -160,7 +159,6 @@ input{
 }
 input[type="email"]{
     font-weight: 400;
-    line-height: 21px;
     margin-bottom: 30px;
     color: #F3F3F3;
     background: #151414;
@@ -175,5 +173,5 @@ input[type="submit"]{
 .copyright{
     color: red;
     text-align: center;
-    padding: 50px;
+    padding-bottom: 50px;
 }
